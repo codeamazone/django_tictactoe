@@ -32,7 +32,7 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = env('DJANGO_DEBUG', default=False)
 
 # ALLOWED_HOSTS = env('DJANGO_ALLOWED_HOSTS')
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 
