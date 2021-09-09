@@ -17,7 +17,6 @@ COPY requirements.txt /code/
 
 # install dependencies
 RUN pip install --upgrade pip
-COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copy the project files into the working directory
